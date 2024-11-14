@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Pendidikan</title>
+    <style>
+        /* CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0066cc;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        .logo {
+            max-width: 50px;
+            vertical-align: middle;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .featured-image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label, input, button {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 8px 16px;
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #004a99;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HTML -->
+    <header>
+        <img src="img src=saya.jpg alt=.png" alt="Logo Pendidikan" class="logo">
+        <h1>Website Pendidikan</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#content">Content</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Informasi Terkini</h2>
+        <p>Selamat datang di website pendidikan. Indonesia sedang mengalami transformasi pendidikan melalui inisiatif "Merdeka Belajar." Program ini bertujuan untuk meningkatkan kebebasan dan kualitas belajar siswa, serta mendorong teknologi sebagai bagian integral dalam pendidikan. Dengan lebih dari 60 juta siswa dan 400 ribu sekolah, Indonesia berupaya menciptakan sistem yang lebih inklusif dan efisien, mencerminkan semangat gotong royong​. Program ini juga melibatkan pelatihan digital untuk guru dan siswa, mendukung tujuan "Indonesia Emas" pada 2045. Pendidikan yang inklusif, bermutu, dan berbasis teknologi akan membuka peluang besar bagi seluruh anak bangsa.</p>
+        <img src="png-clipart-school-education-building-bhopal-child-day-child-building-removebg-preview.png" alt="Gambar Pendidikan" class="featured-image">
+    </section>
+
+    <!-- About Section moved here above Content -->
+    <section id="about">
+        <h2>About</h2>
+        <p>Pendidikan adalah kunci untuk mengembangkan potensi individu dan membentuk karakter. Melalui pendidikan, kita memperoleh pengetahuan, keterampilan, dan nilai yang penting untuk kehidupan. Selain pendidikan formal di sekolah dan perguruan tinggi, pendidikan juga terjadi dalam berbagai bentuk sepanjang hayat, baik secara informal di rumah atau dalam komunitas, maupun dalam pelatihan vokasional yang memberikan keterampilan praktis untuk dunia kerja.</p>
+        <p>Pendidikan berperan penting dalam menciptakan kesetaraan, memperkuat demokrasi, dan mempromosikan perdamaian. Dengan memprioritaskan pendidikan, kita bisa membangun masyarakat yang lebih adil dan berkembang. Pendidikan juga membantu kita menghadapi tantangan masa depan, seperti perubahan teknologi dan sosial. Oleh karena itu, kita perlu memastikan bahwa setiap individu, dari anak-anak hingga orang dewasa, mendapatkan akses ke pendidikan berkualitas untuk mencapai potensi penuh mereka. Pendidikan tidak hanya tentang pengetahuan akademik, tetapi juga tentang mengembangkan nilai-nilai moral, etika, dan empati.</p>
+        <p>Hubungi kami di <a href="mailto:info@pendidikan.com">info@pendidikan.com</a> untuk informasi lebih lanjut tentang pendidikan dan peluang pendidikan di Indonesia.</p>
+    </section>
+
+    <section id="content">
+        <h2>Content</h2>
+        <table>
+            <tr>
+                <th>Judul Materi</th>
+                <th>Deskripsi</th>
+            </tr>
+            <tr>
+                <td>Belajar Matematika</td>
+                <td>Pemahaman dasar matematika untuk pelajar, dari aritmatika dasar hingga konsep aljabar.</td>
+            </tr>
+            <tr>
+                <td>Belajar Sains</td>
+                <td>Dasar-dasar sains yang menarik dan edukatif, meliputi biologi, fisika, dan kimia untuk siswa sekolah dasar hingga menengah.</td>
+            </tr>
+            <tr>
+                <td>Sejarah Indonesia</td>
+                <td>Memahami sejarah panjang Indonesia, dari masa kerajaan hingga kemerdekaan dan pembangunan nasional.</td>
+            </tr>
+            <tr>
+                <td>Bahasa Inggris</td>
+                <td>Kursus dasar untuk mempelajari bahasa Inggris, dari grammar hingga percakapan sehari-hari.</td>
+            </tr>
+        </table>
+
+        <form id="contactForm">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Website Pendidikan. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // JavaScript
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert("Form telah dikirim!");
+        });
+    </script>
+     
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Portfolio</title>
+         <style>
+             /* CSS */
+             body {
+                 font-family: Arial, sans-serif;
+                 margin: 0;
+                 padding: 0;
+                 background-color: #f0f8ff; /* Warna biru muda untuk latar belakang */
+             }
+     
+             header {
+                 background-color: #ff66b2; /* Warna pink cerah untuk header */
+                 color: white;
+                 padding: 1em;
+                 text-align: center;
+             }
+     
+             nav {
+                 background-color: #1e90ff; /* Warna biru cerah untuk navbar */
+                 overflow: hidden;
+             }
+     
+             nav ul {
+                 list-style-type: none;
+                 margin: 0;
+                 padding: 0;
+             }
+     
+             nav ul li {
+                 float: left;
+             }
+     
+             nav ul li a {
+                 display: block;
+                 color: white;
+                 text-align: center;
+                 padding: 14px 16px;
+                 text-decoration: none;
+             }
+     
+             nav ul li a:hover {
+                 background-color: #4682b4; /* Warna biru lebih gelap untuk hover */
+             }
+     
+             section {
+                 padding: 20px;
+             }
+     
+             .hero {
+                 background-color: #ffffff; /* Latar belakang putih untuk hero */
+                 padding: 20px;
+                 text-align: center;
+                 border-bottom: 3px solid #ff66b2; /* Garis bawah pink cerah */
+             }
+     
+             .about, .projects, .pelatihan, .perlombaan, .kepanitiaan, .hobi, .citacita {
+                 background-color: #ffffff; /* Warna latar belakang putih */
+                 padding: 20px;
+                 margin-top: 20px;
+                 border: 1px solid #ddd; /* Border tipis */
+                 border-radius: 8px; /* Sudut yang lebih lembut */
+             }
+     
+             footer {
+                 background-color: #ff66b2; /* Footer dengan warna pink cerah */
+                 color: white;
+                 text-align: center;
+                 padding: 10px;
+             }
+     
+             h2 {
+                 color: #333; /* Judul dengan warna gelap */
+             }
+     
+             ul {
+                 color: #555; /* Warna teks daftar lebih gelap */
+             }
+     
+         </style>
+     </head>
+     <body>
+     
+         <!-- HTML Structure -->
+         <header>
+             <h1>My Portfolio</h1>
+         </header>
+     
+         <nav>
+             <ul>
+                 <li><a href="#hero">Home</a></li>
+                 <li><a href="#about">About</a></li>
+                 <li><a href="#projects">Projects</a></li>
+                 <li><a href="#pelatihan">Pelatihan</a></li> 
+                 <li><a href="#perlombaan">Perlombaan</a></li> 
+                 <li><a href="#kepanitiaan">Kepanitiaan</a></li>
+                 <li><a href="#hobi">Hobi</a></li>
+                 <li><a href="#citacita">Cita-cita</a></li>
+                 <li><a href="#contact">Contact Me</a></li> <!-- Ganti dengan Contact Me -->
+             </ul>
+         </nav>
+     
+         <section id="hero" class="hero">
+             <h2>Selamat Datang di Portofolio Saya!</h2>
+             <p>Terima kasih telah mengunjungi portofolio saya. Di sini, Anda dapat melihat berbagai proyek yang telah saya kerjakan, keterampilan yang saya miliki, dan pengalaman profesional saya. Saya berharap dapat menunjukkan kemampuan dan dedikasi saya dalam bidang yang saya geluti. Selamat menjelajah, dan jangan ragu untuk menghubungi saya jika ada pertanyaan atau peluang kolaborasi.</p>
+         </section>
+     
+         <section id="about" class="about">
+             <h2>About Me</h2>
+             <p>Saya adalah seorang mahasiswa semester 3 aktif yang memiliki minat dan keahlian dalam bidang desain. Selama studi, saya telah mengembangkan keterampilan dalam desain grafis, UI/UX, dan penggunaan alat desain seperti Adobe Photoshop, Illustrator, dan Figma. Saya senang menciptakan desain yang menarik, fungsional, dan estetis, serta terus belajar untuk meningkatkan kemampuan saya. Saya bersemangat untuk belajar lebih dalam tentang desain digital dan siap berkontribusi dalam berbagai proyek kreatif.</p>
+         </section>
+     
+         <section id="projects" class="projects">
+             <h2>Projects</h2>
+             <ul>
+                 <li><strong>Project 1:</strong> Membuat Website mengenai diri saya sendiri.</li>
+                 <li><strong>Project 2:</strong> Membuat Website mengenai sekolah dasar atau Sekolah ngaji (MDTA) yang ditelusuri.</li>
+                 <li><strong>Project 3:</strong> Membuat Website mengenai jadwal kegiatan pada salah satu panti asuhan yang ada di Kota Tegal.</li>
+                 <li><strong>Project 4:</strong> Pembuatan web aplikasi yang akan digunakan saat UTS dan final UAS, masih dalam proses UTS.</li>
+             </ul>
+         </section>
+     
+         <section id="pelatihan" class="pelatihan">
+             <h2>Pelatihan</h2>
+             <p>Saya telah mengikuti beberapa pelatihan untuk meningkatkan keterampilan saya dalam desain digital, termasuk:</p>
+             <ul>
+                 <li><strong>Pelatihan Desain Grafis:</strong> Mempelajari prinsip desain grafis dan penggunaan Adobe Photoshop dan Illustrator.</li>
+                 <li><strong>Pelatihan UI/UX:</strong> Memahami dasar-dasar desain antarmuka pengguna dan pengalaman pengguna dengan alat seperti Figma dan Adobe Photoshop.</li>
+                 <li><strong>Pelatihan UI/UX:</strong> Membuat UI/UX penjualan dengan fitur-fitur dasar.</li>
+                 <li><strong>Pelatihan Pengembangan Web:</strong> Menambah pengetahuan dalam HTML, CSS, dan JavaScript untuk pengembangan website.</li>
+             </ul>
+         </section>
+     
+         <section id="perlombaan" class="perlombaan">
+             <h2>Perlombaan</h2>
+             <p>Saya juga telah berpartisipasi dalam beberapa perlombaan untuk mengasah kemampuan saya, termasuk:</p>
+             <ul>
+                 <li><strong>Perlombaan Fotografi:</strong> Mendapatkan penghargaan sebagai peserta dalam lomba Fotografi yang diselenggarakan oleh Nutriziarte.</li>
+                 <li><strong>Perlombaan UI/UX:</strong> Mendapatkan penghargaan sebagai peserta dalam lomba desain online yang diadakan oleh Education Fair 2024 Silogy Expo UI/UX.</li>
+             </ul>
+         </section>
+     
+         <section id="kepanitiaan" class="kepanitiaan">
+             <h2>Kepanitiaan</h2>
+             <p>Saya juga aktif dalam berbagai kegiatan kepanitiaan, yang membantu saya dalam mengembangkan kemampuan organisasi dan kepemimpinan, di antaranya:</p>
+             <ul>
+                 <li><strong>Panitia Invofest 2024:</strong> Sebagai IT COMPETITION Membantu teman-teman yang mengikuti lomba invofest secara online.</li>
+                 <li><strong>Panitia KPR 2024/2025:</strong> Sebagai Sekretaris Membantu dalam persiapan surat menyurat, maju untuk bertemu dengan dosen kesiswaan untuk menandatangani surat tersebut dan membantu mencatat seluruh hasil rapat maupun sosialisasi yang telah diselenggarakan.</li>
+                 <li><strong>Panitia Sintesa 2024:</strong> Sebagai Panitia Sintesa Eduphoria di mana kampus-kampus luar terutama kampus negeri hadir dalam acara bedah kampus, dan dihadiri oleh salah satu peserta Cash Clash Of Champions By Ruang Guru dari kampus Universitas Indonesia Fakultas Kedokteran.</li>
+             </ul>
+         </section>
+     
+         <section id="hobi" class="hobi">
+             <h2>Hobi</h2>
+             <p>Saya memiliki beberapa hobi yang saya nikmati dalam waktu luang, termasuk:</p>
+             <ul>
+                 <li><strong>Memasak:</strong> Memasak.</li>
+                 <li><strong>Fotografi:</strong> Menangkap momen-momen indah di sekitar saya.</li>
+                 <li><strong>Desain Grafis:</strong> Menciptakan karya visual menarik menggunakan software desain.</li>
+             </ul>
+         </section>
+     
+         <section id="citacita" class="citacita">
+             <h2>Cita-cita</h2>
+             <p>Cita-cita saya adalah menjadi seorang desainer profesional yang ahli dalam bidang UI/UX dan desain grafis, serta berkontribusi dalam menciptakan produk digital yang berdampak positif dan berkelanjutan.</p>
+         </section>
+     
+         <section id="contact" class="contact">
+             <h2>Contact Me</h2>
+             <p>Anda dapat menghubungi saya melalui:</p>
+             <ul>
+                 <li><strong>Email:</strong>kholilala99@gmail.com</li>
+                 <li><strong>Nomor Telepon:</strong> +6289609967345</li>
+                 <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kholila-ristiana-b4b81b295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app " target="_blank">https://www.linkedin.com/in/kholila-ristiana-b4b81b295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app </a></li>
+                 <li><strong>GitHub:</strong> <a href="https://github.com/username" target="_blank">https://github.com/Kholilaaaaaaa</a></li>
+         
+             </ul>
+         </section>
+         
+</body>
+</html>
